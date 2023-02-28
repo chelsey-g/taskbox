@@ -6,8 +6,6 @@ import * as TaskStories from "./Task.stories";
 import { Provider } from "react-redux";
 
 import { configureStore, createSlice } from "@reduxjs/toolkit";
-
-// A super-simple mock of the state of the store
 export const MockedState = {
   tasks: [
     { ...TaskStories.Default.args.task, id: "1", title: "Task 1" },
